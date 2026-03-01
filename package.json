@@ -1,0 +1,7 @@
+{
+  "name": "govee_h5074_ble_dbus",
+  "version": "1.1.0",
+  "description": "Auto-scan Govee H5074 BLE sensors to VenusOS DBus for Cerbo GX",
+  "dependencies": ["python3", "python3-pip", "python3-bleak", "python3-dbus-next", "govee_ble"],
+  "startup": "install.sh"
+}
